@@ -1,20 +1,18 @@
-# Python: Getting Started
+# Code-IT Suisse
 
-A barebones Django app, which can easily be deployed to Heroku.
+A Django app, deployed to Heroku.
 
-This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
 
 ## Running Locally
 
-Make sure you have Python [installed properly](http://install.python-guide.org).  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/) and [Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup).
 
 ```sh
-$ git clone git@github.com:heroku/python-getting-started.git
+$ git clone git@github.com:krohak/codeIT-Suisse.git
 $ cd python-getting-started
 
 $ pipenv install
 
-$ createdb python_getting_started
+$ createdb codeIT-Suisse
 
 $ python manage.py migrate
 $ python manage.py collectstatic
@@ -37,8 +35,3 @@ or
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-## Documentation
-
-For more information about using Python on Heroku, see these Dev Center articles:
-
-- [Python on Heroku](https://devcenter.heroku.com/categories/python)
